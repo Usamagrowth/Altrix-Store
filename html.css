@@ -6,6 +6,11 @@
 
 }
 
+body{
+    background: white;
+    
+}
+
 .header{
     display: flex;
     flex-direction: column;
@@ -144,15 +149,14 @@ bottom: 20%;
 }
 .description{
     display: flex;
-    padding-left: 55px;
+    padding:15px 45px;
     position: relative;
-    gap: 30px;
     background: rgb(248, 242, 231);
     border-radius: 20px;
 }
 
 .details{
-    background: green;
+    background: black;
     border-radius: 50px;
     width: 40%;
     padding: 10px;
@@ -160,15 +164,14 @@ bottom: 20%;
     color: white;
 
 }
-.d-img{
-    width: 400px;
-    height: 450px;
+.d-img{ display: flex;
+    width: 45%;
 }
 
 .list-d{
     display: flex;
     flex-direction: column;
-    padding-top: 20px;
+    padding: 15px 70px;
     gap: 30px;
 }
 
@@ -227,25 +230,29 @@ bottom: 20%;
     padding-left: 35px;
 }
 
+
+.text-p{
+    font-size: 20px;
+    width: 400px;
+}
 .p-promo{
-    border: 2px solid;
     background-color: black;
     font-size: 17px;
     color: white;
-    border-radius: 30px;
+    border-radius: 50px;
     width: 110px;
-    align-content: center;
-    padding: 3px;
+    padding: 2px;
+    justify-content: center;
 }
 
  .after-p{
-    width: 450px;
-    padding: 10px;
+    width: 49%;
+    padding: 20px;
     border-radius: 35px;
  }
 
   .after-pp{
-    padding-left: 20px;
+    padding: 15px 30px;
     justify-content: center;
 
   }
@@ -258,30 +265,35 @@ bottom: 20%;
     .cart-e{
         display: flex;
         flex-wrap: wrap;
-        gap: 50px;
-        padding: 15px;
+        padding: 15px 10px;
+        gap: 18px;
+        justify-content: space-between;
+
         
     }
 
       .cart-s{
-        line-height: 27px;
+        width: 150px;
+        
 
       }
 
     .cart-img{
-        width: 370px;
+        width: 150px;
+        height: 100px;
     }
 
     .cart-p{
-      width: 250px;
+        font-size: 15px;
+        padding-bottom: 15px;
     }
 
     .add-c{
         background: black;
         color: #ffffff;
-        padding: 7px;
+        padding: 10px;
         border-radius: 50px;
-        border: 1px solid;
+        align-items: center;
     }
 
     .footer{
@@ -289,15 +301,20 @@ bottom: 20%;
         flex-direction: row;
         background: #e4dada;
         padding: 20px;
-        justify-content: space-between;
     }
    
      .fade{
         display: flex;
-        gap: 120px;
         padding: 20px;
         font-size:18px ;
+        width: 85%;
+        justify-content: space-between;
      }
+
+.foot{
+    column-gap: 30px;
+    font-size: 20px;
+}
 
 @media (max-width:600px) {
     .all-nav, .right-box{
@@ -329,6 +346,11 @@ bottom: 20%;
      .heading{
         padding: 0;
      }
+
+     .aa{
+        width: 700px;
+     }
+
      .description{
         padding: 15px;
 
