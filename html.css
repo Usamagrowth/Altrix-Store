@@ -59,6 +59,7 @@ body{
     flex-direction: row;
     border: none;
     background: none;
+    cursor: pointer;
 }
 
 .cart{
