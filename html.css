@@ -131,7 +131,7 @@ bottom: 20%;
 .container{
     display: flex;
     position: relative;
-    padding-left: 30px;
+    padding-left: 10px;
 }
 
 .img-p{
@@ -150,7 +150,7 @@ bottom: 20%;
 }
 .description{
     display: flex;
-    padding:15px 45px;
+    padding:15px 25px;
     position: relative;
     background: rgb(248, 242, 231);
     border-radius: 20px;
@@ -172,7 +172,7 @@ bottom: 20%;
 .list-d{
     display: flex;
     flex-direction: column;
-    padding: 15px 70px;
+    padding: 15px 40px;
     gap: 30px;
 }
 
@@ -266,9 +266,8 @@ bottom: 20%;
     .cart-e{
         display: flex;
         flex-wrap: wrap;
-        padding: 15px 10px;
-        gap: 18px;
-        justify-content: space-between;
+        padding: 15px;
+        gap: 25px;
 
         
     }
@@ -301,20 +300,19 @@ bottom: 20%;
         display: flex;
         flex-direction: row;
         background: #e4dada;
-        padding: 20px;
     }
    
      .fade{
         display: flex;
         padding: 20px;
-        font-size:18px ;
         width: 85%;
         justify-content: space-between;
+        gap: 37px;
      }
 
 .foot{
     column-gap: 30px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 @media (max-width:600px) {
@@ -322,7 +320,7 @@ bottom: 20%;
      display: none;
     }
     .shop{
-        padding:15px ;
+        padding:12px ;
     }
 
     .img-h, .img-showing{
@@ -335,6 +333,9 @@ bottom: 20%;
     .shop-b{
         display: grid;
         grid-template-columns: 1fr 1fr;
+    }
+
+    .img-categories{
     }
     .img-c{
         width:220px;
@@ -349,20 +350,25 @@ bottom: 20%;
      }
 
      .aa{
-        width: 700px;
+        height: 30px;
+        bottom: 50%;
      }
 
      .description{
-        padding: 15px;
+        padding: 15px 20px;
 
      }
 
      .details{
-        width: 170px;
+        width: 30px;
     
     }
     .d-img{
-        width: 300px;
+        width: 270px;
+    }
+    .fade{
+        width: 40%;
+        justify-content: space-between;
     }
    
 }
