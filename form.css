@@ -3,19 +3,35 @@
     padding: 0;
     box-sizing: border-box;
 }
+.content{
+    display: flex;
+    width: 100vw;
+    align-content: center;
+    justify-content: center;
+
+}
 .content-head{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    background: blueviolet;
 }
 
+.content-head h1{
+    color: white;
+}
+
+.content-head p{
+    color: white;
+}
 
 .form{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 100%;
     padding: 30px;
     gap: 15px;
+
 }
 
 .input{
@@ -31,5 +47,7 @@ label{display: flex;
 }
 
 button{
+    background: blueviolet;
+    color: white;
     height: 30px;
 }
